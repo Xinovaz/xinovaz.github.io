@@ -9,3 +9,7 @@ The Nautopia Project allows you, an Astroneer, to develop complex living structu
 ### Reports
 
 EXO Dynamics will autonomously collect data regarding your performance. EXO Dynamics will continue to update live initiatives and missions whilst you work on the Nautopia Project.
+
+### Access Point
+
+[``CLICK TO ACTIVATE ACCESS POINT``](https://nautopia.tk/connection_server.md)
