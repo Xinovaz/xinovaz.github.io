@@ -2,11 +2,9 @@
 
 ## Here's stuff about our class:
 
-Zoom invite:
 
-Join Zoom Meeting
 
-https://us04web.zoom.us/j/9288648869?pwd=Z2IwdDA5RDdrM0JjZmZ6R2g5c3Y1QT09
+[Click here to join the Zoom.](https://us04web.zoom.us/j/9288648869?pwd=Z2IwdDA5RDdrM0JjZmZ6R2g5c3Y1QT09)
 
 Meeting ID: 928 864 8869
 
