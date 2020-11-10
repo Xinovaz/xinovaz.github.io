@@ -35,4 +35,30 @@ else:
     f.write('DOB: ' + dob)
 ```
 
+Objects and Inheritance
+```python
+class Car(object):
+  def __init__(self, maker, model, hp):
+    self.maker = maker
+    self.model = model
+    self.hp = hp
+  def maximum_speed(self):
+    first = 2 * self.hp
+    second = 1.225 * 0.25 * 8
+    speed = (first/second)**(1/3)
+    return speed
+
+class Sports_Car(Car):
+  def __init__(self, maker, model, hp):
+    super().__init__(maker, model, hp)
+  def rev(self):
+    print("Vroom! Vrooooom!")
+    
+lambo = Sports_Car("lamborghini", "aventador", 729)
+
+lambo.rev()
+
+print(lambo.maximum_speed())
+```
+
 ### To be continued...
