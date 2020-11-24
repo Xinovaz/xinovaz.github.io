@@ -61,4 +61,31 @@ lambo.rev()
 print(lambo.maximum_speed())
 ```
 
+Job Scraper
+```python
+import requests
+from bs4 import BeautifulSoup
+
+URL = "https://stackoverflow.com/jobs"
+page = requests.get(URL)
+
+soup = BeautifulSoup(page.content, 'html.parser')
+
+listings = soup.find_all('div', class_=lambda cl: cl is not None and '-job' in cl)
+
+jobs = []
+for listing in listings:
+  job = listing.find('span')
+  name = job.text
+  name = name.strip()
+  jobs.append(name)
+
+jobs = set(jobs)
+
+for j in sorted(jobs):
+  if j != 'featured':
+    print(j)
+```
+
+
 ### To be continued...
