@@ -11,3 +11,5 @@ Meeting ID: 928 864 8869
 Passcode: math
 
 I'll start putting programs I write online [here.](https://nautopia.tk/kushclasscode)
+
+Problems to work on are [here.](https://nautopia.tk/kushclassproblems)
