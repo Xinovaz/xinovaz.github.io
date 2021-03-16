@@ -66,3 +66,21 @@ class Stack(object):
 		self.update()
 
 ```
+
+
+### Car problem
+```python
+class Car(object):
+	def __init__(self, name):
+		self.name = name
+		#1
+		#2
+
+# Define a method for this object that allows the programmer to set custom information for this car.
+
+# You must also add two lines of code at the lines marked with #1 and #2.
+# The lines of code will add this custom information to two attributes:
+#	self.issues
+#	self.make_info
+
+```
